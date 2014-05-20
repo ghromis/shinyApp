@@ -15,7 +15,14 @@ mode        : selfcontained # {standalone, draft}
 Shiny app contains information about the Dow Jones Industrial Average index. You
 can use it to track returns and index composition.
 
+```{r echo=FALSE}
+DJIA <- dow.jan.2005[,1:6]
+```
 
+```{r}
+library(portfolio)
+head(DJIA)
+```
 
 --- .class #id 
 
