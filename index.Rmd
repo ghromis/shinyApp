@@ -1,0 +1,41 @@
+---
+title       : Shiny App
+subtitle    : presentation
+author      : 
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+---
+
+## About the App
+
+Shiny app contains information about the Dow Jones Industrial Average index. You
+can use it to track returns and index composition.
+
+
+
+--- .class #id 
+
+## Plot
+
+This page shows Dow Jones Industrial Average (DJIA) index returns for the chosen
+period.
+
+You can select log scale or nominal scale.
+
+You can also select to see returns adjusted for the inflation.
+
+--- .class #id 
+
+## Summary
+
+You can see more about the Down Jones Industrial averge index here.
+
+--- .class #id 
+
+## Table
+
+You can see a table with the information about index components here. 
